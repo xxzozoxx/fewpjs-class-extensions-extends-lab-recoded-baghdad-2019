@@ -4,7 +4,7 @@ class Polygon {
     this.arr = arr;
   }
   get countSides(sidesArr){
-    
+    return this.arr.length
   }
   get perimeter(){
     
