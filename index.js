@@ -29,6 +29,6 @@ class Square extends Polygon {
     return ((side1 === side2) && (side1 === side3) && (side1 === side4))
   }
   get area (){
-    return this.arr.reduce((init,s) => );
+    return this.arr[0] * this.arr[0]
   }
 }
