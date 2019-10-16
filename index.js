@@ -10,3 +10,8 @@ class Polygon {
     return this.arr.reduce((init,s) => {return s = init + s},0)
   }
 }
+class Triangle extends Polygon {
+  get isValid (){
+    
+  }
+}
